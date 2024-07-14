@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    top: 0;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#play_ground{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    position: relative;
+}
+#bucket{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+#ball{
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+
+}
